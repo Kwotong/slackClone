@@ -1,0 +1,168 @@
+.slack__teams {
+    background: white;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.slack__teams h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.8;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.slack__teams p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.4;
+    text-align: center;
+}
+
+.slack__teams-btn_container {
+    display: flex;
+    gap: .7rem;
+    margin: 2rem auto;
+}
+
+.slack__teams-stats_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.slack__teams-stats {
+    align-self: flex-start;
+    max-width: 190px;
+}
+
+.slack__teams-stats h2 {
+    text-align: left;
+    color: var(--color-1);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+.slack__teams-stats p {
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.slack__teams-emoji-top {
+    position: absolute;
+    top: 1.5rem;
+}
+
+.slack__teams-emoji-top.left {
+    left: 9rem;
+}
+
+.slack__teams-emoji-top.right {
+    right: 9rem;
+}
+
+.slack__teams-emoji-middle {
+    position: absolute;
+    top: 12rem
+}
+
+.slack__teams-emoji-middle.left {
+    left: 4rem;
+}
+
+.slack__teams-emoji-middle.right {
+    right: 13rem;
+}
+
+.slack__teams-emoji-bottom {
+    position: absolute;
+    top: 17rem;
+}
+
+.slack__teams-emoji-bottom.left {
+    left: 12rem;
+}
+
+.slack__teams-emoji-bottom.right {
+    right: 7rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .slack__teams-emoji-top.left {
+        left: 4rem;
+    }
+    
+    .slack__teams-emoji-top.right {
+        right: 13rem;
+    }
+
+    .slack__teams-emoji-middle.left {
+        left: 8rem;
+    }
+    
+    .slack__teams-emoji-middle.right {
+        right: 6rem;
+    }
+
+    .slack__teams-emoji-bottom.left {
+        left: 3rem;
+    }
+    
+    .slack__teams-emoji-bottom.right {
+        right: 15rem;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .slack__teams-emoji-top,
+    .slack__teams-emoji-middle,
+    .slack__teams-emoji-bottom {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .slack__teams h2 {
+        font-size: 2rem;
+    }
+
+    .slack__teams p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .slack__teams-btn_container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slack__teams-btn_container button {
+        flex: 1;
+        width: 100%;
+    }
+
+    .slack__teams-stats_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slack__teams-stats {
+        align-self: center;
+    }
+
+    .slack__teams-stats p, 
+    .slack__teams-stats h2 {
+        text-align: center;
+    }
+}

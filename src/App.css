@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+* {
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    color: unset;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section__padding {
+    padding: 4rem 6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section__margin {
+    margin: 4rem 6rem;
 }
 
-.App-link {
-  color: #61dafb;
+.white-btn {
+    background: white;
+    color: var(--color-1);
+
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 420;
+
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.white-btn:hover {
+    transform: scale(0.98);
+}
+
+.white-btn:active {
+    background: rgba(255, 255, 255, .2);
+    color: white;
+}
+
+.purple-btn {
+    background: var(--color-1);
+    color: white;
+
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 420;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.transparent-btn-purple {
+    background: transparent;
+    color: var(--color-1);
+
+    padding: 15px 30px;
+    border: 1px solid var(--color-1);
+    border-radius: 4px;
+
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 420;
+
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.transparent-btn-purple:hover {
+    padding: 14px 29px;
+    border-width: 2px;
+}
+
+.transparent-btn-purple:active {
+    color: white;
+    background: var(--color-1);
+}
+
+.transparent-btn-white {
+    background: transparent;
+    color: white;
+
+    padding: 15px 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 420;
+
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.transparent-btn-white:hover {
+    padding: 14px 29px;
+    border-width: 2px;
+}
+
+.transparent-btn-white:active {
+    color: var(--color-1);
+    background: white;
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
 }

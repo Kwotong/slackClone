@@ -1,0 +1,107 @@
+.slack__testimonial {
+    padding: 2rem 0;
+    background: white;
+    color: black;
+}
+
+.slack__testimonial-top {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.slack__testimonial-video {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-height: 400px;
+    max-width: 725px;
+    clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+}
+
+.slack__testimonial-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slack__testimonial-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0 1rem;
+}
+
+.slack__testimonial-text {
+    font-size: 1.75rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+    margin-bottom: 1rem;
+}
+
+.slack__testimonial-name {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: -.2px;
+}
+
+.slack__testimonial-role {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.slack__testimonial-readmore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    padding-bottom: 2px;
+    color: var(--color-5);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.slack__testimonial-readmore img {
+    width: 30px; 
+    height: 13px;
+}
+
+.slack__testimonial-readmore:hover {
+    border-bottom: 2px solid var(--color-5);
+    padding-bottom: 0;
+}
+
+.slack__testimonial-bottom_text {
+    opacity: .5;
+    font-size: 0.875rem;
+    padding: 3rem 4rem 1rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 1050px) {
+    .slack__testimonial-top {
+        flex-direction: column;
+    }
+
+    .slack__testimonial-content {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .slack__testimonial-content {
+        padding: 0 2rem;
+    }
+
+    .slack__testimonial-bottom_text {
+        padding: 2rem 2rem 1rem;
+    }
+}
