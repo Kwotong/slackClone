@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/slackClone/static/css/main.472dc5e9.css",
+    "main.js": "/slackClone/static/js/main.56169963.js",
+    "static/media/flexibility.webm": "/slackClone/static/media/flexibility.5193928a8c5fe3041689.webm",
+    "static/media/connectedness.webm": "/slackClone/static/media/connectedness.8652e69ba6e528f501b5.webm",
+    "static/media/speed.webm": "/slackClone/static/media/speed.9fa3500d1b4ca93bd6a2.webm",
+    "static/media/hero-product-ui.webm": "/slackClone/static/media/hero-product-ui.a33fd284bfa2e2c9bf93.webm",
+    "static/media/IBM_08.mp4": "/slackClone/static/media/IBM_08.ad49295cc199047a8e1f.mp4",
+    "static/media/promo-open-ai.jpg": "/slackClone/static/media/promo-open-ai.4de6ca3e81e6cf00ab31.jpg",
+    "static/media/promo-state-of-work.jpg": "/slackClone/static/media/promo-state-of-work.1117f4c546c11c4c152d.jpg",
+    "static/media/slacklogo.png": "/slackClone/static/media/slacklogo.39c7db68643f5e349495.png",
+    "static/media/rsz_slack_rgb.png": "/slackClone/static/media/rsz_slack_rgb.e578e9d81965a1f30c1a.png",
+    "static/media/promo-boost-productivity.jpg": "/slackClone/static/media/promo-boost-productivity.4c1163ba4eac46e7dc24.jpg",
+    "static/media/wtny-resource-tile.jpg": "/slackClone/static/media/wtny-resource-tile.73c54b226dc058715753.jpg",
+    "index.html": "/slackClone/index.html",
+    "static/media/lSBmc7tyNDRW9.svg": "/slackClone/static/media/lSBmc7tyNDRW9.d7c2921ffcad509a5d81d7fc4d770eaa.svg",
+    "static/media/icon_chevron_white_nav.svg": "/slackClone/static/media/icon_chevron_white_nav.2c19f46a1cac78adf2163e0f763c330b.svg",
+    "main.472dc5e9.css.map": "/slackClone/static/css/main.472dc5e9.css.map",
+    "main.56169963.js.map": "/slackClone/static/js/main.56169963.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472dc5e9.css",
+    "static/js/main.56169963.js"
+  ]
+}
