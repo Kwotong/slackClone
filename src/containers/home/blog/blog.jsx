@@ -1,10 +1,10 @@
 import React from 'react';
 import './blog.css';
-import { Article } from '../../components';
-import image1 from '../../assets/promo-state-of-work.jpg';
-import image2 from '../../assets/wtny-resource-tile.jpg';
-import image3 from '../../assets/promo-open-ai.jpg';
-import image4 from '../../assets/promo-boost-productivity.jpg';
+import { Article } from '../../../components';
+import image1 from '../../../assets/promo-state-of-work.jpg';
+import image2 from '../../../assets/wtny-resource-tile.jpg';
+import image3 from '../../../assets/promo-open-ai.jpg';
+import image4 from '../../../assets/promo-boost-productivity.jpg';
 
 function Blog() {
     return (

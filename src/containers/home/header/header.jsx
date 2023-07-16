@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-import googleLogo from '../../assets/google-logo.png';
-import video from '../../assets/hero-product-ui.webm';
+import googleLogo from '../../../assets/google-logo.png';
+import video from '../../../assets/hero-product-ui.webm';
 
 function Header() {
     return(

@@ -1,11 +1,11 @@
 import React from 'react';
 import './teams.css';
-import officeBuilding from '../../assets/emoji-office-building.png';
-import skyline from '../../assets/emoji-skyline.png';
-import chart from '../../assets/emoji-chart-upward-trend.png';
-import handshake from '../../assets/emoji-handshake.png';
-import lock from '../../assets/emoji-lock.png';
-import woman from '../../assets/emoji-woman-technologist.png';
+import officeBuilding from '../../../assets/emoji-office-building.png';
+import skyline from '../../../assets/emoji-skyline.png';
+import chart from '../../../assets/emoji-chart-upward-trend.png';
+import handshake from '../../../assets/emoji-handshake.png';
+import lock from '../../../assets/emoji-lock.png';
+import woman from '../../../assets/emoji-woman-technologist.png';
 
 function Teams() {
     return(

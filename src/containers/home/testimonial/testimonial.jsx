@@ -1,7 +1,7 @@
 import React from 'react';
 import './testimonial.css'
-import arrow from '../../assets/lSBmc7tyNDRW9.svg';
-import IBM from '../../assets/IBM_08.mp4';
+import arrow from '../../../assets/lSBmc7tyNDRW9.svg';
+import IBM from '../../../assets/IBM_08.mp4';
 
 function Testimonial () {
     return(
