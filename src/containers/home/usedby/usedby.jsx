@@ -1,11 +1,11 @@
 import React from 'react';
 import './usedby.css';
-import airbnb from '../../assets/airbnb-logo.png';
-import nasa from '../../assets/logo-nasa.png';
-import uber from '../../assets/uber.png';
-import target from '../../assets/target-logo.png';
-import nyt from '../../assets/nyt.png';
-import etsy from '../../assets/logo-etsy.png';
+import airbnb from '../../../assets/airbnb-logo.png';
+import nasa from '../../../assets/logo-nasa.png';
+import uber from '../../../assets/uber.png';
+import target from '../../../assets/target-logo.png';
+import nyt from '../../../assets/nyt.png';
+import etsy from '../../../assets/logo-etsy.png';
 
 function Usedby() {
     return(

@@ -1,9 +1,9 @@
 import React from 'react';
 import './feature.css';
-import video1 from '../../assets/speed.webm';
-import video2 from '../../assets/flexibility.webm';
-import video3 from '../../assets/connectedness.webm';
-import arrow from '../../assets/lSBmc7tyNDRW9.svg';
+import video1 from '../../../assets/speed.webm';
+import video2 from '../../../assets/flexibility.webm';
+import video3 from '../../../assets/connectedness.webm';
+import arrow from '../../../assets/lSBmc7tyNDRW9.svg';
 
 function Feature() {
     return (
