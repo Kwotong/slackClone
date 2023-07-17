@@ -1,9 +1,10 @@
 import React from 'react';
+import { HeaderEnterprise } from '../../containers/enterprise';
 
 function Enterprise () {
     return (
         <div>
-            Enterprise
+            <HeaderEnterprise />
         </div>
     )
 }
