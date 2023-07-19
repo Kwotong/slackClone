@@ -137,8 +137,8 @@ a {
 
     background: var(--color-1);
     border-radius: 50%;
-    width: 18px;
-    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
 }
 
 .bullets img {
