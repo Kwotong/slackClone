@@ -1,11 +1,12 @@
 import React from 'react';
-import { HeaderEnterprise, Scale } from '../../containers/enterprise';
+import { HeaderEnterprise, Scale, Security } from '../../containers/enterprise';
 
 function Enterprise () {
     return (
         <div>
             <HeaderEnterprise />
             <Scale />
+            <Security />
         </div>
     )
 }
