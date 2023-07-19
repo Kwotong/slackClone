@@ -17,21 +17,6 @@
     align-items: flex-start;
 }
 
-.enterprise__header_content h4 {
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1.4;
-    text-transform: uppercase;
-}
-
-.enterprise__header_content h2 {
-    font-size: 3.125rem;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: -.8px;
-    margin-bottom: 2rem;
-}
-
 .enterprise__header-intro{
     font-weight: 400;
     line-height: 1.33;
@@ -63,23 +48,6 @@
     min-width: 210px;
     gap: 10px;
     cursor: pointer;
-}
-
-.enterprise__header-checkimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: var(--color-1);
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-}
-
-.enterprise__header-checkimg img {
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
 }
 
 .enterprise__header_item p {

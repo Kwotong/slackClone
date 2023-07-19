@@ -28,15 +28,15 @@ function HeaderEnterprise() {
         <div className='enterprise__header section__padding'>
             <div className='enterprise__header_top'>
                 <div className='enterprise__header_content'>
-                    <h4>Enterprise</h4>
-                    <h2>Built with enterprises, for enterprises</h2>
+                    <h4 className='small-heading'>Enterprise</h4>
+                    <h2 className='section-heading'>Built with enterprises, for enterprises</h2>
                     <p className='enterprise__header-intro'>Slack is secure. It’s flexible. It’s software that people actually enjoy using. And it’s here to help your business.</p>
                     <p className='enterprise__header-advantage'>Learn how Slack supports organizations of all sizes:</p>
                     <ul className='enterprise__header_list'>
                         {listData.map((item, index) => {
                             return (
                                 <li className='enterprise__header_item' key={index}>
-                                    <div className='enterprise__header-checkimg'>
+                                    <div className='enterprise__header-checkimg bullets'>
                                         <img src={check} alt='check img' />
                                     </div>
                                     <p>{item}</p>
