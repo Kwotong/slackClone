@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderEnterprise, Scale, Security } from '../../containers/enterprise';
+import { HeaderEnterprise, Scale, Security, Engagement } from '../../containers/enterprise';
 
 function Enterprise () {
     return (
@@ -7,6 +7,7 @@ function Enterprise () {
             <HeaderEnterprise />
             <Scale />
             <Security />
+            <Engagement />
         </div>
     )
 }
