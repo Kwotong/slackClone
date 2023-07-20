@@ -1,6 +1,6 @@
 import React from 'react';
 import './article.css';
-import arrow from '../../assets/lSBmc7tyNDRW9.svg';
+import arrow from '../../assets/arrowbold.svg';
 
 function Article({ IMG, title, category, more }) {
     return(

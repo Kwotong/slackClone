@@ -1,0 +1,112 @@
+.enterprise__platform {
+    background: #fff;
+    display: flex; 
+    flex-direction: column;
+}
+
+.enterprise__platform-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.enterprise__platform-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.enterprise__platform-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.enterprise__platform-details p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.enterprise__platform-bullets {
+    background: #1164a3;
+}
+
+.enterprise__platform-readmore {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-5);
+    width: fit-content;
+    cursor: pointer;
+
+    margin-bottom: 3rem;
+    padding-bottom: 2px;
+
+    transition: 0.3 ease;
+}
+
+.enterprise__platform-readmore:hover {
+    padding-bottom: 0;
+    border-bottom: 2px solid var(--color-5);
+}
+
+.enterprise__platform-readmore p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.enterprise__platform-readmore img {
+    width: 19px;
+    height: 15px;
+}
+
+.enterprise__platform-logo-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.enterprise__platform-logo {
+    width: 54px;
+    height: 54px;
+}
+
+.enterprise__platform-logo img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.enterprise__platform-img {
+    flex: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.enterprise__platform-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px)  {
+    .enterprise__platform-logo-container {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .enterprise__platform-top {
+        flex-direction: column;
+    }
+
+    .enterprise__platform-logo-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

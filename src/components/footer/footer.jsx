@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './footer.css';
-import logo from '../../../assets/favicon-32-ua.png';
+import logo from '../../assets/favicon-32-ua.png';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { FaTwitter, FaFacebookSquare, FaYoutubeSquare, FaLinkedin, FaCaretDown } from 'react-icons/fa';
 

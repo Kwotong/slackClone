@@ -8,6 +8,8 @@
     padding: 12px;
     cursor: pointer;
     transition: 0.3s ease;
+
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .1);
 }
 .slack__article:hover {
     transform: scale(1.04);
@@ -53,6 +55,8 @@
     justify-content: space-between;
     align-items: center;
     color: var(--color-5);
+    text-transform: uppercase;
+    font-weight: 500;
     width: 100%;
 }
 

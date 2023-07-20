@@ -1,0 +1,142 @@
+.enterprise__engagement {
+    background: var(--color-3);
+    display: flex; 
+    flex-direction: column;
+}
+
+.enterprise__engagement-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.enterprise__engagement-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.enterprise__engagement-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.enterprise__engagement-details p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.enterprise__engagement-bullets {
+    background: #0f7751;
+}
+
+.enterprise__engagement-readmore {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-5);
+    width: fit-content;
+    cursor: pointer;
+
+    margin-bottom: 3rem;
+    padding-bottom: 2px;
+
+    transition: 0.3 ease;
+}
+
+.enterprise__engagement-readmore:hover {
+    padding-bottom: 0;
+    border-bottom: 2px solid var(--color-5);
+}
+
+.enterprise__engagement-readmore p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.enterprise__engagement-readmore img {
+    width: 19px;
+    height: 15px;
+}
+
+
+.enterprise__engagement-stats-container {
+    display: flex;
+    gap: 8rem;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.enterprise__engagement-stats {
+    flex: 1;
+    max-width: 180px;
+}
+
+.enterprise__engagement-stats h3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #0e7751;
+}
+
+.enterprise__engagement-stats p {
+    font-weight: 0.9rem;
+    letter-spacing: 0.2px; 
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.enterprise__engagement-image-container {
+    display: flex;
+    gap: 13rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.enterprise__engagement-image {
+    width: 105px;
+    height: 30px; 
+}
+
+.enterprise__engagement-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.enterprise__engagement-source {
+    font-size: .95rem;
+    font-weight: normal;
+    opacity: 0.5;
+    margin-bottom: .2rem;
+}
+
+.enterprise__engagement-source span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.enterprise__engagement-img {
+    flex: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.enterprise__engagement-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 950px) {
+    .enterprise__engagement-top {
+        flex-direction: column;
+    }
+}

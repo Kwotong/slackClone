@@ -1,7 +1,7 @@
 import React from 'react';
 import './app.css';
-import { Navbar, Search } from './components';
-import { Footer, Header, Teams, Usedby, Feature, Testimonial, Blog } from './containers/home';
+import { Navbar, Footer, Search } from './components';
+import { Header, Teams, Usedby, Feature, Testimonial, Blog } from './containers/home';
 
 function App() {
     return (
