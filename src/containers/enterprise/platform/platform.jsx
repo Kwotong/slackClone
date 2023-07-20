@@ -71,7 +71,7 @@ function Platform() {
                         })
                     }
                     <div className='enterprise__platform-readmore'>
-                        <p>Learn more about Slack at scale</p>
+                        <p>Learn more about apps and integrations</p>
                         <img src={arrow} alt='arrow img' />
                     </div>
                     {isSmallScreen >= 1200 && <Logos />}
