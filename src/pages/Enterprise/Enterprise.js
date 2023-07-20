@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderEnterprise, Scale, Security, Engagement, Platform, SlackConnect, Blank, Blog } from '../../containers/enterprise';
+import { HeaderEnterprise, Scale, Security, Engagement, Platform, SlackConnect, Blank, Blog, Faq } from '../../containers/enterprise';
 
 function Enterprise () {
     return (
@@ -12,6 +12,7 @@ function Enterprise () {
             <SlackConnect />
             <Blank />
             <Blog />
+            <Faq />
         </div>
     )
 }
