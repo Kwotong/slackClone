@@ -2,14 +2,14 @@ import React from 'react';
 import './plan.css';
 import tick from '../../../assets/tick.svg';
 
-const PlanDescription = ({ plan, description, price, btnText, prevBenefits, data }) => {
+const PlanDescription = ({ plan, description, price, btnText, prevBenefits, data, time }) => {
     return (
         <div className='pricing__plan-description'>
             <div className='pricing__plan-top'>
                 <h3 className='pricing__plan-name'>{plan}</h3>
                 <div className='pricing__plan-def-container'>
                     <p className='pricing__plan-definition'>{description}</p>
-                    <h3 className='pricing__plan-price'><span>{price}</span></h3>
+                    <h3 className='pricing__plan-price'><span>{price}</span><span className='time-text'>{time}</span></h3>
                 </div>
                 <button className='purple-btn pricing__plan-button'>{btnText}</button>
                 <p className='pricing__plan-benefits'>{prevBenefits}</p>
@@ -70,7 +70,8 @@ function Plan() {
                 <PlanDescription
                     plan='Free'
                     description='The quickest and easiest way to try Slack'
-                    price='$0 USD/mo'
+                    price='$0 USD'
+                    time='/mo'
                     btnText='get started'
                     prevBenefits=''
                     data={freeData}
@@ -78,7 +79,8 @@ function Plan() {
                 <PlanDescription
                     plan='Pro'
                     description='More power for small teams who want better collaboration'
-                    price='$7.25 USD/mo'
+                    price='$7.25 USD'
+                    time='/mo'
                     btnText='get started'
                     prevBenefits='All the benefits of Free, and:'
                     data={proData}
@@ -86,7 +88,8 @@ function Plan() {
                 <PlanDescription
                     plan='Business+'
                     description='Scale your business, increase productivity, and keep your teams connected'
-                    price='$12.50 USD/mo'
+                    price='$12.50 USD'
+                    time='/mo'
                     btnText='get started'
                     prevBenefits='All the goodness of Pro, and:'
                     data={businessData}
