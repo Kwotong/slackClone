@@ -1,0 +1,90 @@
+.pricing__details {
+    width: 100%;
+    margin: 3rem 0 .5rem;
+}
+
+.pricing__details-heading {
+    padding: 1.5rem;
+    font-size: .875rem; 
+    font-weight: 600;
+    letter-spacing: .3px; 
+    line-height: 1.4;
+}
+
+.spacer {
+    width: 1.5rem;
+    background: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+    position: relative; 
+}
+
+thead {
+    position: sticky;
+    top: 0;
+}
+
+th:nth-child(2),
+td:nth-child(2), 
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(6),
+td:nth-child(6),
+th:nth-child(8),
+td:nth-child(8) {
+    background: #f5f4f5;
+    width: 200px;
+    text-align: center;
+}
+
+td:nth-child(2),
+td:nth-child(4),
+td:nth-child(6),
+td:nth-child(8),
+td:nth-child(1) {
+    padding: 1rem 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: .2px; 
+    line-height: 1.4;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+text-align: left;
+}
+
+th:nth-child(1) {
+    padding: 1.5rem 0;
+    font-size: .875rem; 
+    font-weight: 600;
+    letter-spacing: .3px; 
+    line-height: 1.4;
+}
+
+tbody tr:nth-child(n+2):nth-child(-n+9):hover,
+tbody tr:nth-child(n+11):nth-child(-n+12):hover,
+tbody tr:nth-child(n+14):nth-child(-n+19):hover,
+tbody tr:nth-child(n+21):nth-child(-n+24):hover,
+tbody tr:nth-child(n+26):nth-child(-n+32):hover,
+tbody tr:nth-child(n+34):nth-child(-n+36):hover {
+    background: #e0e0e0;
+    z-index: 10;
+}
+
+tfoot td {
+    background: white;
+    color: var(--color-5); 
+    text-decoration: underline;
+    cursor: pointer;    
+}
+
+@media screen and (max-width: 900px) {
+    .pricing__details {
+        display: none;
+    }
+}

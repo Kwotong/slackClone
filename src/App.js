@@ -14,7 +14,11 @@ function App() {
             <Teams />
             <Testimonial />
             <Blog />
-            <Footer />
+            <Footer 
+            heading='See all you can accomplish with Slack'
+            firstButton='try for free' 
+            secondButton='talk to sales' 
+            />
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { AiOutlineDownload } from 'react-icons/ai';
 import { FaTwitter, FaFacebookSquare, FaYoutubeSquare, FaLinkedin, FaCaretDown } from 'react-icons/fa';
 
 
-function Footer() {
+function Footer({ heading, firstButton, secondButton }) {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -71,10 +71,10 @@ function Footer() {
     return(
         <div className='slack__footer'>
             <div className='slack__footer-top section__padding'>
-                <h2>See all you can accomplish with Slack</h2>
+                <h2>{heading}</h2>
                 <div className='slack__footer-btn_container'>
-                    <button className='white-btn'>Try for free</button>
-                    <button className='transparent-btn-white'>Talk to sales</button>
+                    <button className='white-btn'>{firstButton}</button>
+                    { firstButton !== 'talk to sales' && <button className='transparent-btn-white'>{secondButton}</button>}
                 </div>
             </div>
             <div className='slack__footer-middle'>
