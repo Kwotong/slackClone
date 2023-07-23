@@ -14,7 +14,11 @@ function Enterprise () {
             <Blank />
             <Blog />
             <Faq />
-            <Footer />
+            <Footer 
+            heading='Choose a better way to work'
+            firstButton='talk to sales' 
+            // secondButton='talk to sales' 
+            />
         </div>
     )
 }
