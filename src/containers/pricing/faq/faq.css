@@ -1,0 +1,80 @@
+.pricing__faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__faq-heading {
+    font-size: 2rem;
+    letter-spacing: .4px;
+    line-height: 1.8;
+    font-weight: 700;
+    margin: 4rem 0 1rem;
+}
+
+.pricing__faq-heading,
+.pricing__faq-text {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.pricing__faq-text {
+    font-size: 1.rem;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: .2px;
+    margin-bottom: .5rem;
+}
+
+.pricing__faq-accordion-item {
+    width: 100%;
+    max-width: 1200px;
+    border-bottom: 1px solid #ebeaeb;
+}
+
+.pricing__faq-accordion-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    cursor: pointer;
+}
+
+.pricing__faq-accordion-item:first-of-type {
+    border-top: 1px solid #ebeaeb;
+}
+
+.pricing__faq-accordion-head img {
+    width: 25px; 
+    height: 25px;
+    cursor: pointer;
+}
+
+.pricing__faq-accordion-head h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.2px; 
+}
+
+.pricing__faq-answer {
+    font-size: 1.125rem;
+    letter-spacing: .2px; 
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.pricing__faq-bottom-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: .2px; 
+    line-height: 1.4;
+    margin: 4rem 0 1rem;
+}
+.pricing__faq-bottom-text span {
+    text-decoration: underline;
+    color: var(--color-5);
+    cursor: pointer;
+}
