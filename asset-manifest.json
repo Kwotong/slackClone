@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/slackClone/static/css/main.e8c6ad4d.css",
-    "main.js": "/slackClone/static/js/main.38453382.js",
+    "main.js": "/slackClone/static/js/main.319a62d8.js",
     "static/media/flexibility.webm": "/slackClone/static/media/flexibility.5193928a8c5fe3041689.webm",
     "static/media/connectedness.webm": "/slackClone/static/media/connectedness.8652e69ba6e528f501b5.webm",
     "static/media/speed.webm": "/slackClone/static/media/speed.9fa3500d1b4ca93bd6a2.webm",
@@ -36,10 +36,10 @@
     "static/media/check.svg": "/slackClone/static/media/check.16fcd2bf9334adfbf2891506fe1819e6.svg",
     "static/media/icon_chevron_white_nav.svg": "/slackClone/static/media/icon_chevron_white_nav.2c19f46a1cac78adf2163e0f763c330b.svg",
     "main.e8c6ad4d.css.map": "/slackClone/static/css/main.e8c6ad4d.css.map",
-    "main.38453382.js.map": "/slackClone/static/js/main.38453382.js.map"
+    "main.319a62d8.js.map": "/slackClone/static/js/main.319a62d8.js.map"
   },
   "entrypoints": [
     "static/css/main.e8c6ad4d.css",
-    "static/js/main.38453382.js"
+    "static/js/main.319a62d8.js"
   ]
 }
