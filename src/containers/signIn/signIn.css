@@ -1,0 +1,210 @@
+.signin {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signin__new {
+    position: absolute;
+    top: 4rem; 
+    right: 2rem;
+
+    text-align: right;
+    font-size: .775rem;
+    letter-spacing: .2px;
+    line-height: 1.4;
+}
+
+.signin__new p:first-child {
+    opacity: .6;
+}
+
+.signin__new p:nth-child(2) {
+    color: var(--color-5);
+    font-weight: 600;
+    opacity: 1;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.signin__new p:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+.signin__content{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.signin__logo {
+    width: 202px; 
+    height: 46px; 
+}
+
+.signin__logo img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.signin__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.signin__input h2 {
+    font-size: 3rem;
+    letter-spacing: .4px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-align: center;
+}
+
+.singin__text {
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: .2px; 
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.signin__google img, 
+.signin__apple img {
+    width: 18px;
+    height: 18px; 
+}
+
+.signin__message,
+.signin__button,
+.signin__email,
+.signin__google,
+.signin__apple,
+.signin__altenative {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.signin__google,
+.signin__apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 2px solid #bbbabb;
+    border-radius: 5px; 
+    padding: 7px; 
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.signin__google:hover,
+.signin__apple:hover {
+    box-shadow: 0 0 5px 1px #bbbabb;
+}
+
+.signin__google p,
+.signin__apple p {
+    font-size: 1.05rem;
+    letter-spacing: .3px; 
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.signin__altenative {
+    text-align: center;
+    border-bottom: 1px solid #bbbabb;
+    line-height: .01em;
+    margin: 10px 0;
+}
+
+.signin__altenative span {
+    background: white;
+    padding: 0 15px; 
+    
+}
+
+.signin__email,
+.signin__button {
+    display: block;
+    border-radius: 3px; 
+}
+
+.signin__email {
+    border: 1px solid #bbbabb;
+    padding: 10px 12px;
+}
+
+.signin__email::placeholder {
+    font-size: 1rem;
+}
+
+.signin__button {
+    background: var(--color-1);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    font-size: 1.05rem;
+    transition: .3s ease;
+}
+
+.signin__button:hover {
+    background: #711872;
+}
+
+.signin__message {
+    display: flex;
+    gap: 5px;
+    background: #f3f3f3;
+    padding: 15px;
+}
+
+.signin__message img {
+    width: 18px; 
+    height: 18px;
+}
+
+.signin__message p {
+    font-size: .9rem;
+    letter-spacing: .2px; 
+    line-height: 1.4;
+    color: #616061;
+}
+
+.signin__message p span {
+    color: var(--color-5);
+    cursor: pointer; 
+    transition: .3s ease; 
+}
+
+.signin__message p span:hover {
+    text-decoration: underline;
+}
+
+.signin__footer {
+    display: flex;
+    gap: 10px;
+}
+
+.signin__footer p {
+    font-size: .9rem; 
+    letter-spacing: .2px;
+    line-height: 1.4;
+    font-weight: 300;
+    opacity: .8;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.signin__footer p:hover {
+    color: var(--color-5);
+    text-decoration: underline;
+}

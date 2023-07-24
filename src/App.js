@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 import { Navbar, Footer, Search } from './components';
 import { Header, Teams, Usedby, Feature, Testimonial, Blog } from './containers/home';
 

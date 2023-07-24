@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './app';
+import App from './App';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Enterprise, Pricing } from './pages';
+import { Enterprise, Pricing, SignIn, SignUp } from './pages';
 
 const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/slackClone",
       element: <App />,
     },
     {
@@ -18,6 +18,14 @@ const router = createBrowserRouter([
       path: "pricing",
       element: <Pricing />,
     },
+    {
+        path: 'signin',
+        element: <SignIn />,
+    },
+    {
+        path: 'signup',
+        element: <SignUp />
+    }
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
