@@ -1,0 +1,52 @@
+.contact__header {
+    background: var(--color-1);
+    color: #fff;
+    text-align: left;
+}
+
+.contact__header-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.contact__header-help,
+.contact__header-text {
+    font-size: 1.025rem;
+    font-weight: 400;
+    letter-spacing: .2px; 
+    line-height: 1.4;
+    margin: 1rem 0;
+}
+
+.contact__header-help span {
+    color: var(--color-4);
+    padding-bottom: 1px; 
+    border-bottom: 1px solid var(--color-4);
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.contact__header-help span:hover {
+    padding-bottom: 0;
+    border-bottom: 2px solid var(--color-4);
+}
+
+.contact__header-list {
+    margin-bottom: 4rem;
+}
+
+.contact__header-data {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.contact__header-data p {
+    font-size: 1.025rem;
+    letter-spacing: .2px;
+    font-weight: 400;
+}
