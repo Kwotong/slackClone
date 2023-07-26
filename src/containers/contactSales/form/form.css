@@ -1,0 +1,149 @@
+.contact__form {
+    display: flex;
+    flex-direction: row; 
+    gap: 2rem;
+}
+
+.contact__form-companies,
+.contact__form-input {
+    flex: 1;
+}
+
+.contact__form-heading {
+    font-size: 2.125rem;
+    letter-spacing: .4px;
+    line-height: 1.4; 
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.contact__form-logo-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.contact__form-logo {
+    width: auto; 
+    height: 40px; 
+}
+
+.contact__form-logo img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.divider {
+    height: 1px;
+    color: #f5f4f5;
+}
+
+.contact__form-testimonial {
+    margin: 2rem 0 0;
+}
+
+.contact__form-testimonial img {
+    width: 47px;
+    height: 32px; 
+    margin-bottom: 1.5rem;
+}
+
+.contact__form-testimonial-text {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 1.4;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.contact__form-testimonial-name, 
+.contact__form-testimonial-position {
+    font-size: 0.95rem; 
+    line-height: 1.4;
+    letter-spacing: .2px; 
+    font-weight: 400;
+}
+
+.contact__form-input form {
+    padding: 1rem;
+    background: white;
+    display: flex; 
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: 0 0 10px 2px rgba(0,0,0, .1);
+
+    /* z-index: 100;
+    margin-top: -450px;  */
+}
+
+.contact__form_twoColumns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 1.5rem;
+}
+
+.contact__form-col-1, 
+.contact__form-col-2,
+.contact__form-row {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column;
+}
+
+label {
+    font-size: .9rem; 
+    font-weight: 500; 
+    letter-spacing: .2px; 
+    line-height: 1.4;
+    margin-bottom: .4rem;
+}
+
+label span {
+    color: #e4376b;
+}
+
+form .divider {
+    margin: 2rem 0;
+}
+
+input, 
+select,
+textarea {
+    padding: 15px 10px; 
+    border: 1px solid black;
+    border-radius: 3px; 
+}
+
+.contact__form-info, 
+.contact__form-instruction {
+    font-size: .875rem;
+    letter-spacing: .2px; 
+    line-height: 1.4;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.contact__form-info span {
+    color: var(--color-5);
+    cursor: pointer; 
+    border-bottom: 1px solid var(--color-5); 
+    padding-bottom: 1px; 
+    transition: 0.3 ease;
+}
+
+.contact__form-info span:hover {
+    padding-bottom: 0; 
+    border-bottom: 2px solid var(--color-5);
+}
+
+.contact__form-instruction {
+    color: #e4376b;
+}
