@@ -1,5 +1,5 @@
 import React from 'react';
-import './blog.css'
+import './blog.css';
 import { ReadMore, ArticleFW } from '../../../components';
 import intuitBooks from '../../../assets/intuit-quickbooks.jpeg';
 import intuit from '../../../assets/intuit.png';

@@ -2,7 +2,21 @@
     background: var(--color-1);
     color: #fff;
     text-align: left;
+    position: relative;
 }
+/* 
+.contact__header-overlay {
+    position: absolute; 
+    inset: 0;
+}
+
+.contact__header-overlay img {
+    z-index: -1;
+}
+
+.contact__header-content {
+    z-index: 2;
+} */
 
 .contact__header-heading {
     font-size: 3rem;
