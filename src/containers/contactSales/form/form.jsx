@@ -21,19 +21,6 @@ function Form() {
         event.preventDefault(); // prevent page refresh. yet to add action for submit button
     }
 
-    // const [size, setSize] = useState('')
-
-    // function handleSize(event) {
-    //     const {name, value} = event.target;
-
-    //     setContactInfo((prev) => ({
-    //         ...prev,
-    //         [name]: value,
-    //     }))
-
-    //     console.log(contactInfo);
-    // }
-
     const [contactInfo, setContactInfo] = useState({
         fName: '',
         lName: '',
