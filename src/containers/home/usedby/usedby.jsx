@@ -28,7 +28,7 @@ function Usedby() {
                     <img src={nyt} alt='logo' />
                 </div>
                 <div className='slack__usedby-logo_image'>
-                    <img src={etsy} alt='logo' />
+                    <img src={etsy} alt='logo' /> 
                 </div>
             </div>
         </div>

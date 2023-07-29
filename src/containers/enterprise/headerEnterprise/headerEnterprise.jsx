@@ -56,7 +56,7 @@ function HeaderEnterprise() {
                 <div className='enterprise__header-logos'>
                     {logoImages.map((image, index) => {
                         return (
-                            <div key={index}>
+                            <div className='enterprise__header-logo' key={index} >
                                 <img src={image} alt='logo img' />
                             </div>
                         )

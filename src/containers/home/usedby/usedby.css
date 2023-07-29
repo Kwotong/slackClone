@@ -28,3 +28,8 @@
 .slack__usedby-logo_image {
     margin: 0 1rem;
 }
+
+.slack__usedby-logo_image img {
+    max-height: 40px;
+    width: auto;
+}
