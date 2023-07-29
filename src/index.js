@@ -11,23 +11,23 @@ const router = createBrowserRouter([
       element: <App />,
     },
     {
-      path: "enterprise",
+      path: "/enterprise",
       element: <Enterprise />,
     },
     {
-      path: "pricing",
+      path: "/pricing",
       element: <Pricing />,
     },
     {
-        path: 'signin',
+        path: '/signin',
         element: <SignIn />,
     },
     {
-        path: 'signup',
+        path: '/signup',
         element: <SignUp />
     }, 
     {
-        path: 'contact-sales',
+        path: '/contact-sales',
         element: <ContactSales />
     }
   ]);
