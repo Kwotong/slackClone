@@ -40,7 +40,7 @@ function Blog() {
                         <div className='pricing__blog-logoImg' key={index}>
                             <img src={item} alt='item image' />
                         </div>
-                    )
+                    ) 
                 })}
             </div>
         </div>

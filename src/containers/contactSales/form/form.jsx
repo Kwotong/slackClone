@@ -40,12 +40,13 @@ function Form() {
           ...prev,
           [name]: value,
         };
-      };
+    };
 
     function handleChange(event) {
         const { name, value } = event.target;
 
         setContactInfo((prev) => updateFormState(name, value, prev));
+
         console.log(contactInfo);
     }
 

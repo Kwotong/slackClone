@@ -91,6 +91,11 @@
     transition: 0.3s ease;
 }
 
+.enterprise__header-logo img{
+    max-height: 40px;
+    width: auto;
+}
+
 .enterprise__header-logos:hover {
     filter: blur(3px);
     transform: scale(0.9);
