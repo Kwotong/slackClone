@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/slackClone/static/css/main.e8c6ad4d.css",
-    "main.js": "/slackClone/static/js/main.0137b6ad.js",
+    "main.css": "/slackClone/static/css/main.622aa9fb.css",
+    "main.js": "/slackClone/static/js/main.dc78084b.js",
     "static/media/flexibility.webm": "/slackClone/static/media/flexibility.5193928a8c5fe3041689.webm",
     "static/media/connectedness.webm": "/slackClone/static/media/connectedness.8652e69ba6e528f501b5.webm",
     "static/media/speed.webm": "/slackClone/static/media/speed.9fa3500d1b4ca93bd6a2.webm",
@@ -10,6 +10,7 @@
     "static/media/IBM_08.mp4": "/slackClone/static/media/IBM_08.ad49295cc199047a8e1f.mp4",
     "static/media/Slack-Customer-Shopify.jpeg": "/slackClone/static/media/Slack-Customer-Shopify.eaf1883a9f58eefbc268.jpeg",
     "static/media/enterprise-hero.jpeg": "/slackClone/static/media/enterprise-hero.9eb636666202a665a5de.jpeg",
+    "static/media/bg-halftone-black-20p.png": "/slackClone/static/media/bg-halftone-black-20p.759cbf01154426acc853.png",
     "static/media/slack-connect.jpeg": "/slackClone/static/media/slack-connect.6d7ca21eefd5d106b27d.jpeg",
     "static/media/platform.jpeg": "/slackClone/static/media/platform.8f688a70d34e68a2861b.jpeg",
     "static/media/engagement.jpeg": "/slackClone/static/media/engagement.05c3d0704d5cc2878874.jpeg",
@@ -20,26 +21,30 @@
     "static/media/fastly.jpeg": "/slackClone/static/media/fastly.566e3a736ebccf66a98f.jpeg",
     "static/media/promo-state-of-work.jpg": "/slackClone/static/media/promo-state-of-work.1117f4c546c11c4c152d.jpg",
     "static/media/intuit-quickbooks.jpeg": "/slackClone/static/media/intuit-quickbooks.be3be1ea22957907cf99.jpeg",
+    "static/media/us-department-of-veteran-affairs.png": "/slackClone/static/media/us-department-of-veteran-affairs.c3cc42094cfaf69c8ac7.png",
     "static/media/slacklogo.png": "/slackClone/static/media/slacklogo.39c7db68643f5e349495.png",
     "static/media/connect.jpeg": "/slackClone/static/media/connect.af49e44896a49910b63d.jpeg",
     "static/media/rsz_slack_rgb.png": "/slackClone/static/media/rsz_slack_rgb.e578e9d81965a1f30c1a.png",
     "static/media/promo-forrester-02.jpeg": "/slackClone/static/media/promo-forrester-02.74e833406ce4fef7f53c.jpeg",
     "static/media/promo-boost-productivity.jpg": "/slackClone/static/media/promo-boost-productivity.4c1163ba4eac46e7dc24.jpg",
     "static/media/wtny-resource-tile.jpg": "/slackClone/static/media/wtny-resource-tile.73c54b226dc058715753.jpg",
+    "static/media/googleLogo.svg": "/slackClone/static/media/googleLogo.d841b8b286c986e5e7aea21096318698.svg",
+    "static/media/appleLogo.svg": "/slackClone/static/media/appleLogo.d43ffd2b63d987bd16e516fa09c964c2.svg",
     "index.html": "/slackClone/index.html",
     "static/media/lSBmc7tyNDRW9.svg": "/slackClone/static/media/lSBmc7tyNDRW9.d7c2921ffcad509a5d81d7fc4d770eaa.svg",
     "static/media/icon_chevron_black.svg": "/slackClone/static/media/icon_chevron_black.354ec04d668084daac90dfba495e6b6f.svg",
+    "static/media/tickWhite.svg": "/slackClone/static/media/tickWhite.3ece7114428fae6276e7ea87c8ab31cd.svg",
     "static/media/arrow.svg": "/slackClone/static/media/arrow.35ec40b343f2ec999d2a0dba79dd2737.svg",
     "static/media/arrowbold.svg": "/slackClone/static/media/arrowbold.35ec40b343f2ec999d2a0dba79dd2737.svg",
     "static/media/boldTick.svg": "/slackClone/static/media/boldTick.c00496b90797ef55b0957977d10a1b03.svg",
     "static/media/tick.svg": "/slackClone/static/media/tick.a34b4540646bbd5b59bb54dc7e18dc60.svg",
     "static/media/check.svg": "/slackClone/static/media/check.16fcd2bf9334adfbf2891506fe1819e6.svg",
     "static/media/icon_chevron_white_nav.svg": "/slackClone/static/media/icon_chevron_white_nav.2c19f46a1cac78adf2163e0f763c330b.svg",
-    "main.e8c6ad4d.css.map": "/slackClone/static/css/main.e8c6ad4d.css.map",
-    "main.0137b6ad.js.map": "/slackClone/static/js/main.0137b6ad.js.map"
+    "main.622aa9fb.css.map": "/slackClone/static/css/main.622aa9fb.css.map",
+    "main.dc78084b.js.map": "/slackClone/static/js/main.dc78084b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8c6ad4d.css",
-    "static/js/main.0137b6ad.js"
+    "static/css/main.622aa9fb.css",
+    "static/js/main.dc78084b.js"
   ]
 }
