@@ -1,5 +1,8 @@
 .contact__header {
-    background: var(--color-1);
+    background-color: var(--color-1) !important;
+    background-image: url(../../../assets/bg-halftone-black-20p.png);
+    background-position: center;
+    background-size: contain;
     color: #fff;
     text-align: left;
     position: relative;
