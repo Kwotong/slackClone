@@ -87,7 +87,7 @@
     flex-wrap: wrap;
     margin: 2rem 0 0;
     gap: 2rem;
-    filter: none;
+    /* filter: none; */
     transition: 0.3s ease;
 }
 
@@ -96,7 +96,7 @@
     width: auto;
 }
 
-.enterprise__header-logos:hover {
+.enterprise__header_bottom:hover .enterprise__header-logos {
     filter: blur(3px);
     transform: scale(0.9);
 }
@@ -105,15 +105,17 @@
     width: fit-content;
     background: #fff;
     color: var(--color-5);
-    padding: 25px 30px;
+    padding: 20px 30px;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, .1);
 
     display: flex;
     align-items: center;
+    gap: 5px;
 
     position: absolute;
+    z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -130,6 +132,11 @@
 .enterprise__header_seemore img {
     width: 20px;
     height: 15px;
+}
+
+.enterprise__header_seemore:hover + .enterprise__header-logos {
+    filter: blur(3px);
+    transform: scale(0.9);
 }
 
 @media screen and (max-width: 775px) {

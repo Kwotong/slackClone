@@ -85,22 +85,22 @@ function Navbar() {
                             <p className='slack__navbar-linkitems'><a href='#'>Solutions</a></p>
                         </div>
                         <div className='slack__navbar-link'>
-                            <p className='slack__navbar-linkitems'><a href='#'>Enterprise</a></p>
+                            <p className='slack__navbar-linkitems'><a href='/enterprise'>Enterprise</a></p>
                         </div>
                         <div className='slack__navbar-link'>
                             <p className='slack__navbar-linkitems'><a href='#'>Resources</a></p>
                         </div>
                         <div className='slack__navbar-link'>
-                            <p className='slack__navbar-linkitems'><a href='#'>Pricing</a></p>
+                            <p className='slack__navbar-linkitems'><a href='/pricing'>Pricing</a></p>
                         </div>
                     </div>
                 </div>
                 <div className='slack__navbar-buttons'>
                     <RiSearchLine color='#fff' size={25} className='slack__navbar-search' onClick={() => handleMenu(true)}/>
                     <RiMenuLine color='#fff' size={25} className='slack__navbar-phonemenu'/>
-                    <button className='slack__navbar-signin'>Sign in</button>
-                    <button className='slack__navbar-sales'>TALK TO SALES</button>
-                    <button className='slack__navbar-free'>TRY FOR FREE</button>
+                    <a href='/signin'><button className='slack__navbar-signin'>Sign in</button></a>
+                    <a href='/contact-sales'><button className='slack__navbar-sales'>TALK TO SALES</button></a>
+                    <a href='/signup'><button className='slack__navbar-free'>TRY FOR FREE</button></a>
                 </div>
             </div>
         )

@@ -53,6 +53,12 @@ function HeaderEnterprise() {
                 </div>
             </div>
             <div className='enterprise__header_bottom' onMouseEnter={() => handleHover(isHovered)} onMouseLeave={() => handleHover(isHovered)}>
+                {isHovered && (
+                    <div className='enterprise__header_seemore' >
+                        <p>See all customer stories</p>
+                        <img src={arrow} alt='arrow img' />
+                    </div>
+                )}
                 <div className='enterprise__header-logos'>
                     {logoImages.map((image, index) => {
                         return (
@@ -62,12 +68,6 @@ function HeaderEnterprise() {
                         )
                     })}
                 </div>
-                {isHovered && (
-                    <div className='enterprise__header_seemore' >
-                        <p>See all customer stories</p>
-                        <img src={arrow} alt='arrow img' />
-                    </div>
-                )}
             </div>
         </div>
     )
